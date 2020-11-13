@@ -12,7 +12,7 @@ align-items: center;
 justify-content: center;
 animation-name: bounce;
 animation-duration: 3s;
-animation-interation-count:6;
+animation-iteration-count: 6;
 }
 
 @keyframes bounce {
