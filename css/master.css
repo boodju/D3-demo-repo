@@ -5,10 +5,35 @@ body{
   background-color: rgb(0, 0, 0);
   color: rgba(255, 255, 255, 255);
   width: 300px;
-height: 300px
+height: 300px;
 text-align : center;
 display: flex;
 align-items: center;
 justify-content: center;
+animation-name: bounce;
+animation-duration: 3s;
+animation-interation-count:6;
+}
 
+@keyframes bounce {
+  0% {
+    transform: scale(1);
+    position: relative;
+    top:0;
+  }
+  40% {
+    transform: scale(1.8);
+    position: relative;
+    top:600px;
+  }
+  80% {
+    transform: scale(0.6);
+    position: relative;
+    top:300px;
+  }
+  100% {
+    transform: scale(1);
+    position: relative;
+    top:0;
+  }
 }
